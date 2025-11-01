@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 // GET / should return 404 with body 'Resource not found'
 app.get('/', (req, res) => {
-	res.status(404).send('Resource not found');
+	res.status(404).send('Resource Not Found');
 });
 
 app.listen(PORT, () => {
